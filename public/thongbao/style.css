@@ -1,0 +1,46 @@
+
+  /* Toast Container */
+  .toast-container {
+    position: fixed;
+    top: 20px; /* Khoảng cách từ trên cùng của màn hình */
+    right: 20px; /* Khoảng cách từ bên phải của màn hình */
+    z-index: 1050; /* Đảm bảo toast nằm trên các phần tử khác */
+    width: 300px; /* Chiều rộng tối đa của toast */
+  }
+
+  /* Toast */
+  .toast {
+    border-radius: 8px; /* Bo tròn các góc */
+    background-color: #f8f9fa; /* Màu nền của toast */
+    box-shadow: 0 4px 6px rgba(0, 156, 16, 0.1); /* Đổ bóng nhẹ */
+    margin-bottom: 10px; /* Khoảng cách giữa các toast */
+    padding: 10px; /* Khoảng cách bên trong */
+    font-size: 14px; /* Kích thước chữ */
+    color: #006b0e; /* Màu chữ */
+    display: none; /* Ẩn toast mặc định */
+  }
+
+  .toast-header {
+    background-color: #007bff; /* Màu nền của header */
+    color: #fff; /* Màu chữ của header */
+    padding: 10px; /* Khoảng cách bên trong header */
+    border-bottom: 1px solid #0056b3; /* Đường viền dưới header */
+    border-top-left-radius: 8px; /* Bo tròn góc trên bên trái */
+    border-top-right-radius: 8px; /* Bo tròn góc trên bên phải */
+  }
+
+  .toast-body {
+    padding: 10px; /* Khoảng cách bên trong body */
+  }
+
+  .btn-close {
+    background: none; /* Xóa nền của nút đóng */
+    border: none; /* Xóa viền của nút đóng */
+    color: #fff; /* Màu chữ của nút đóng */
+    font-size: 16px; /* Kích thước chữ của nút đóng */
+  }
+
+  .btn-close:hover {
+    opacity: 0.8; /* Hiệu ứng hover cho nút đóng */
+  }
+
